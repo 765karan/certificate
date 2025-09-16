@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Certificates</title>
+  <style>
+    /* Professional Background */
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      color: #fff;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #f0f0f0;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      overflow: hidden;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card h3 {
+      margin: 0;
+      font-size: 1.1rem;
+      color: #ffffff;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      color: #cccccc;
+      margin-top: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.85rem;
+      color: #aaa;
+      background: rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    📜 My Certificates
+  </header>
+
+  <div class="container">
+    <!-- Certificate 1 -->
+    <div class="card">
+      <img src="AWS certificate .jpg" alt="Certificate 1">
+      <div class="card-content">
+        <h3>AWS Certificate 1</h3>
+        <p>Issued by:AWS</p>
+      </div>
+    </div>
+
+    <!-- Certificate 2 -->
+    <div class="card">
+      <img src="python certificate.png" alt="Certificate 2">
+      <div class="card-content">
+        <h3>Python Certificate </h3>
+        <p>Issued by: Geeks for Geeks</p>
+      </div>
+    </div>
+
+    <!-- Certificate 3 -->
+    <div class="card">
+      <img src="deloite.pdf" alt="Certificate 3">
+      <div class="card-content">
+        <h3>Cyber job Simulation</h3>
+        <p>Issued by: Deloitte</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="8fca512eed154c390ffbf0eaeeb7414c.pdf" alt="Certificate 4">
+      <div class="card-content">
+        <h3>JAVA Certificate </h3>
+        <p>Issued by: Geeks for Geeks</p>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    © 2025 Your Name | All Rights Reserved
+  </footer>
+</body>
+</html>
